@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CommonGround.Sources</id>
+    <version>0.1.0</version>
+    <title>CommonGround</title>
+    <authors>Brian Dixon</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Reusable utilities for TShock plugins</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <tags>tshock</tags>
+	<projectUrl>https://github.com/brianide/CommonGround</projectUrl>
+    <repository type="git" url="https://github.com/brianide/CommonGround.git"/>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.3"/>
+    </dependencies>
+	<license type="expression">MPL-2.0</license>
+  </metadata>
+  <files>
+    <file src="*.cs" target="content/CommonGround" />
+  </files>
+</package>
