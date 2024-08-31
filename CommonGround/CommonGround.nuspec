@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CommonGround.Sources</id>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <title>CommonGround</title>
     <authors>Brian Dixon</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -12,7 +12,7 @@
 	<projectUrl>https://github.com/brianide/CommonGround</projectUrl>
     <repository type="git" url="https://github.com/brianide/CommonGround.git"/>
     <dependencies>
-      <dependency id="Newtonsoft.Json" version="12.0.3"/>
+      <dependency id="TShock" version="5.2.0"/>
     </dependencies>
 	<license type="expression">MPL-2.0</license>
   </metadata>
